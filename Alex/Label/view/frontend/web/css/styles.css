@@ -1,0 +1,26 @@
+.badge-label-container {
+  width: 100px;
+  /*position: relative;*/
+}
+
+.badge-label {
+  color: #000000;
+  text-aligh: center;
+  padding: 5px;
+  font-family: verdana;
+  font-size: 20px;	
+  margin-bottom: 5px;
+}
+
+.bl-sale {
+  background-color: red;
+}
+
+.bl-free-shipping {
+  background-color: green;
+}
+
+
+.bl-best-seller {
+  background-color: blue;
+}
