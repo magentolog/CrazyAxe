@@ -1,0 +1,32 @@
+.product.media {
+    position: relative !important; 
+}
+
+.badge-label-container {
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    z-index:999
+}
+
+.badge-label-container div {
+    color: #333;
+    text-align: center;
+    padding: 2px;
+    font-family: arial;
+    font-size: 18px;	
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.bl-sale {
+    background-color: #ffc0c0;
+}
+
+.bl-free-shipping {
+    background-color: #c0ffc0;
+}
+
+.bl-best-seller {
+    background-color: #c0c0ff;
+}

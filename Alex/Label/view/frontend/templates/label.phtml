@@ -1,0 +1,14 @@
+<?php
+/** @var $block \Alex\Label\Block\Label */
+?>
+<?php $labels = $this->getLabels(); ?>
+<?php if (strpos($labels, 'Sale') !== false): ?>
+    <div class="bl-sale">Sale</div>
+<?php endif; ?> 
+<?php if (strpos($labels, 'Free Shipping') !== false): ?>
+    <div class="bl-free-shipping">Free Shipping</div>
+<?php endif; ?> 
+<?php if (strpos($labels, 'Best Seller') !== false): ?>
+    <div class="bl-best-seller">Best Seller</div>
+<?php endif; ?> 
+
